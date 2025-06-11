@@ -4,7 +4,7 @@ id = input("Enter id :")
 student["id"] = id
 
 name = input("Enter Name :")
-student["id"] = name
+student["name"] = name
 
 add = input("Enter address :")
 student["address"] = add
