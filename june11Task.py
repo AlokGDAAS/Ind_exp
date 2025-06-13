@@ -4,22 +4,55 @@ num = int(input("Enter number of students You want to add : "))
 
 for n in range(num):
    dict ={}
-   id = input("Enter id : ")
-   if int(id) > 0 and id.isalnum :    
-    dict["id"] = id 
+
+   while(True):
+      id = input("Enter id : ")
+      if int(id) >0 and id.isdigit and len(id)==3: 
+       dict["id"] = id   
+       break
+      else:
+         print("Try again") 
+
+   while(True):
+      name = input("Enter name : ")
+      if name.isalpha(): 
+       dict["name"] = name 
+       break
+      else:
+         print("Try again") 
+
+   while(True):
+      address = input("Enter address : ")
+      if address.isalnum(): 
+       dict["address"] = address 
+       break
+      else:
+         print("Try again") 
+
+    
    
-   
-   dict["name"] = input("Enter Name : ")    
-   dict["address"] = input("Enter Address : ")    
-      
    dict["qualification"] = []
    
    while(True):
       subq ={}
       decision = input("Are you want to add qualifications yes/no ")
       if decision.lower() == "yes":
-       subq["name"]=input("Please enter qualification name : ")
-       subq["year"]=int(input("Please enter qualification year : "))
+       
+       while(True): 
+        subqn    =    input("Please enter qualification name : ")
+        if subqn.isalnum(): 
+          subq["name"]= subqn
+          break
+        else:
+          print("Please try again")
+       while(True):
+        subqy    =    input("Please enter qualification year : ")
+        if subqy.isdigit() and len(subqn)==4 and int(subqy) > 0: 
+          subq["year"]= subqy
+          break
+        else:
+          print("Please try again")
+        
 
        dict["qualification"].append(subq)
       else:
