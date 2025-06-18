@@ -62,6 +62,7 @@ def search(n):
     print("Enter 1 for search by id")
     print("Enter 2 for search by name")
     print("Enter 3 for search by address")    
+    print("Enter 5 for search by qualification")    
     print("Enter 4 for exit")
 
     dict ={}
