@@ -1,0 +1,127 @@
+Python standard libraries are collection of modules that come with python . These modules help us perform many tasks without needing to install extra pakages.
+
+🔢 Text Processing
+
+string      – Common string operations
+re          – Regular expressions
+difflib     – Compare sequences
+textwrap    – Wrap and format text
+unicodedata – Unicode database
+stringprep  – Internet string preparation
+
+📁 File & Directory Access
+
+os          – Operating system interfaces
+shutil      – High-level file operations
+pathlib     – Object-oriented file system paths
+fnmatch     – Unix filename pattern matching
+glob        – Unix-style pathname pattern expansion
+tempfile    – Temporary file utilities
+
+📅 Date & Time
+
+datetime   – Date and time handling
+time       – Time access and conversions
+calendar   – Calendar-related functions
+zoneinfo   – Time zone support
+
+🧮 Mathematics & Numbers
+
+math       – Mathematical functions
+cmath      – Complex numbers
+decimal    – Decimal floating point arithmetic
+fractions  – Rational numbers
+random     – Pseudo-random numbers
+statistics – Statistical functions
+
+🔗 Data Types & Collections
+
+collections – Container datatypes (e.g., deque, Counter)
+array       – Arrays of uniform type
+heapq       – Heap queue algorithms
+bisect      – Array bisection algorithms
+enum        – Enumerations
+types       – Dynamic type creation and names
+dataclasses – Data classes
+
+📦 Data Serialization / Compression
+
+json        – JSON encoder/decoder
+pickle      – Python object serialization
+marshal     – Internal object serialization
+csv         – CSV file reading/writing
+xml.etree.ElementTree – XML parsing
+zlib, gzip, bz2, lzma – Compression
+base64      – Base64 encoding
+
+🔐 Cryptographic Services
+
+hashlib     – Secure hashes and message digests
+hmac        – Keyed-hashing for message authentication
+secrets     – Cryptographically secure random numbers
+
+🧵 Concurrency & Parallelism
+
+threading   – Thread-based parallelism
+multiprocessing – Process-based parallelism
+asyncio     – Asynchronous I/O, event loop
+concurrent.futures – High-level concurrency API
+queue       – Thread-safe queues
+
+🌐 Internet Protocols & Networking
+
+socket      – Low-level networking interface
+http.client, http.server – HTTP client/server
+urllib      – URL handling modules
+ftplib      – FTP protocol client
+smtplib     – SMTP protocol client
+poplib, imaplib – Email access
+ssl         – TLS/SSL wrapper
+email       – Email message handling
+
+🖧 Web Services & Data Exchange
+
+html, html.parser – HTML parsing
+xml, xml.dom, xml.sax – XML processing
+json        – JSON support
+cgi         – CGI support
+wsgiref     – WSGI utilities
+
+🛠️ Development Tools
+
+pdb – Debugger
+trace      – Trace program execution
+timeit     – Time execution of small code snippets
+doctest    – Test from docstrings
+unittest   – Unit testing framework
+typing     – Support for type hints
+
+📦 Import & Packaging
+
+importlib  – Importing modules
+pkgutil, pkg_resources – Package utilities
+venv       – Virtual environments
+zipimport  – Import from ZIP archives
+
+🖥️ Operating System Interfaces
+
+os, sys    – OS and system-specific parameters
+subprocess – Subprocess management
+signal     – Signal handling
+resource   – Resource usage information
+logging    – Logging facility
+
+🧪 Testing & Debugging
+
+unittest
+doctest
+traceback
+warnings
+faulthandler
+
+🧮 Others / Utilities
+
+itertools  – Functions creating iterators
+functools  – Higher-order functions
+operator   – Functional interface to operators
+contextlib – Context managers
